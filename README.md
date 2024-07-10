@@ -49,8 +49,5 @@ This project is an online bookstore application built with React and React Route
 - Add more detailed book information and reviews.
 - Enhance the UI/UX with better styling and responsive design.
 
-## Live Preview
-You can check out the live preview of the application [here](https://my-library-teal.vercel.app).
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
