@@ -1,9 +1,9 @@
 import React from "react";
-import { books } from "../../data";
+import { books } from "../../books";
 import Book from "../Book";
 
 const BestBooks = ({ id }) => {
-  
+
 
   return (
     <div className="books">

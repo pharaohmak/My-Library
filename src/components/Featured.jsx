@@ -8,8 +8,9 @@ const Featured = () => {
       <div className="container">
         <div className="row">
           <h2 className="section__title">
-            Featured <span className="purple">Books</span>
+            Featured <span className="orange">Books</span>
           </h2>
+
           <BestBooks />
         </div>
       </div>

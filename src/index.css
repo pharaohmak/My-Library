@@ -25,7 +25,7 @@ nav {
   height: 80px;
   display: flex;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
-  background-color: white;
+  background-color: #f0f0f0;
   position: relative;
 }
 
@@ -58,7 +58,7 @@ li {
 
 h1 {
   font-size: 56px;
-  color: #7342d6;
+  color: #f06449;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -78,7 +78,7 @@ button:active {
 }
 
 .btn {
-  background-color: #7342d6;
+  background-color: #f06449;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -86,8 +86,8 @@ button:active {
   border: none;
 }
 
-.purple {
-  color: #7342d6;
+.orange {
+  color: #f06449;
 }
 
 .logo {
@@ -109,7 +109,7 @@ button:active {
   font-size: 20px;
   font-weight: bold;
   padding: 8px;
-  color: #7342d6;
+  color: #f06449;
 }
 
 .nav__list {
@@ -124,7 +124,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #f06449;
   border-radius: 4px;
 }
 
@@ -136,7 +136,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7342d6;
+  color: #f06449;
   font-size: 20px;
   position: relative;
   margin-left: 8px;
@@ -162,7 +162,7 @@ button:active {
   background-color: transparent;
   font-size: 32px;
   border: none;
-  color: #7342d6;
+  color: #f06449;
   display: none;
 }
 
@@ -225,7 +225,8 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: #f0f0f0;
+
 }
 
 header {
@@ -338,7 +339,7 @@ HIGHLIGHTS
 
 .highlight__img {
   border: 2px solid #7342d65d;
-  color: #7342d6;
+  color: #f06449;
   width: 100px;
   height: 100px;
   display: flex;
@@ -363,7 +364,8 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #f0f0f0;
+
 }
 
 .books {
@@ -417,7 +419,7 @@ FEATURES
 }
 
 .book__link {
-  color: #242424;
+  color: #2f2f2f;
 }
 
 .book__img--wrapper {
@@ -433,7 +435,7 @@ FEATURES
 }
 
 .book__title--link {
-  color: #242424;
+  color: #2f2f2f;
 }
 
 .book__ratings {
@@ -454,7 +456,11 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #f0f0f0;
+}
+
+#recent {
+  background-color: #f0f0f0;
 }
 
 /* 
@@ -464,7 +470,7 @@ FOOTER
 */
 
 footer {
-  background-color: #242424;
+  background-color: #303030;
 }
 
 .footer__logo {
@@ -506,7 +512,8 @@ BOOKS PAGE
 
 #books__main {
   flex: 1;
-  background-color: rgb(248,249,250);
+  background-color: #f0f0f0
+
 }
 
 .books__header {
@@ -540,7 +547,7 @@ select {
   justify-content: center;
   padding-top: 60px;
   font-size: 60px;
-  color: #7342d6;
+  color: #f06449;
 }
 
 .fa-spinner {
@@ -597,13 +604,13 @@ select {
   padding: 0 24px;
   margin-bottom: 8px;
   font-size: 32px;
-  color: #242424;
+  color: #2f2f2f;
   display: flex;
   align-items: center;
 }
 
 .book__selected--link {
-  color: #242424;
+  color: #f06449;
 }
 
 .fa-arrow-left {
@@ -648,7 +655,7 @@ select {
 */
 
 .cart__header {
-  background-color: #7342d6;
+  background-color: #f06449;
   margin: 0 24px;
   padding: 8px 16px;
   color: white;

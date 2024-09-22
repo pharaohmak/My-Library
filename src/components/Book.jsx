@@ -6,23 +6,29 @@ import Ratings from "./ui/Ratings";
 const Book = ({ book }) => {
   const [img, setImg] = useState(null);
   const [imgError, setImgError] = useState(false);
-  const mountedRef = useRef(false);
+  const mountedRef = useRef(true); // Initial state is true
 
   useEffect(() => {
     const image = new Image();
     image.src = book.url;
+
     image.onload = () => {
-      setTimeout(() => {
-        if (mountedRef.current) {
+      if (mountedRef.current) {
+        setTimeout(() => {
           setImg(image);
-        }
-      }, 300);
+        }, 300); // Delay added to show skeleton effect
+      }
     };
+
     image.onerror = () => {
-      setImgError(true);
+      if (mountedRef.current) {
+        setImgError(true);
+      }
     };
+
+    // Cleanup on component unmount
     return () => {
-      mountedRef.current = true;
+      mountedRef.current = false; // Set to false when component is unmounted
     };
   }, [book.url]);
 
@@ -32,6 +38,7 @@ const Book = ({ book }) => {
         <div className="error-message">Failed to load image</div>
       ) : !img ? (
         <>
+          {/* Skeleton loading placeholders */}
           <div className="book__img--skeleton"></div>
           <div className="skeleton book__title--skeleton"></div>
           <div className="skeleton book__rating--skeleton"></div>
@@ -39,6 +46,7 @@ const Book = ({ book }) => {
         </>
       ) : (
         <>
+          {/* Once image is loaded, show book details */}
           <Link to={`/books/${book.id}`}>
             <figure className="book__img--wrapper">
               <img className="book__img" src={img.src} alt={book.title} />

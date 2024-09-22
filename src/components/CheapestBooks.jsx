@@ -1,6 +1,6 @@
 import React from "react";
 import Book from "./Book";
-import { books } from "../data";
+import { books } from "../books";
 
 const Features = () => {
   return (
@@ -8,7 +8,8 @@ const Features = () => {
       <div className="container">
         <div className="row">
           <h2 className="section__title">
-            Discounted <span className="purple">Books</span>
+            Discounted <span className="orange">Books</span>
+
           </h2>
           <div className="books">
             {books

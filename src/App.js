@@ -1,10 +1,10 @@
 // import { counter } from "@fortawesome/fontawesome-svg-core";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import BookInfo from "./pages/BookInfo";
-import { books } from "./data";
+import { books } from "./books";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
@@ -17,26 +17,26 @@ function App() {
     setCart((oldCart) =>
       dupeItem
         ? oldCart.map((item) =>
-            item.id === dupeItem.id
-              ? {
-                  ...item,
-                  quantity: item.quantity + 1,
-                }
-              : item
-          )
+          item.id === dupeItem.id
+            ? {
+              ...item,
+              quantity: item.quantity + 1,
+            }
+            : item
+        )
         : [...oldCart, { ...book, quantity: 1 }]
     );
   }
 
   function updateCart(item, newQuantity) {
-    
+
     setCart((oldCart) =>
       oldCart.map((oldItem) =>
         oldItem.id === item.id
           ? {
-              ...oldItem,
-              quantity: newQuantity,
-            }
+            ...oldItem,
+            quantity: newQuantity,
+          }
           : oldItem
       )
     );
