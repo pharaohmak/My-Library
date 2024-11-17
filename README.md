@@ -1,6 +1,6 @@
 # My Library
 
-The **My Library** is a user-friendly platform built with **React** and **React Router**. This project allows users to browse a diverse collection of books, view detailed information about each title, and manage their shopping cart seamlessly. The app dynamically calculates totals, including taxes, providing a smooth shopping experience. 
+**My Library** is a user-friendly platform built with **React** and **React Router**. This project allows users to browse a diverse collection of books, view detailed information about each title, and manage their shopping cart seamlessly. The app dynamically calculates totals, including taxes, providing a smooth shopping experience. 
 
 ## Project Highlights
 - **Interactive Shopping Experience**: Add, update, and remove books from the shopping cart effortlessly.
