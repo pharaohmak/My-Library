@@ -1,23 +1,35 @@
-# My Library
+# 📚 My Library
 
-**My Library** is a user-friendly platform built with **React** and **React Router**. This project allows users to browse a diverse collection of books, view detailed information about each title, and manage their shopping cart seamlessly. The app dynamically calculates totals, including taxes, providing a smooth shopping experience. 
+**My Library** is a responsive and interactive book shopping platform built with React and React Router. It allows users to explore a curated list of books, view detailed information, manage their shopping cart, and see real-time price calculations.
 
-## Project Highlights
-- **Interactive Shopping Experience**: Add, update, and remove books from the shopping cart effortlessly.
-- **Dynamic Pricing**: Real-time calculation of subtotals, taxes, and total costs.
-- **Clean Navigation**: Integrated navigation bar showing live cart updates for better usability.
-- **Responsive Design**: Optimized for an engaging experience across devices.
-- **Scalable Architecture**: Component-based design for easy enhancements and new feature integrations.
+## 🚀 Features
 
-## Technologies Used
-- **React**: For building the user interface and managing application state.
-- **React Router DOM**: For enabling seamless navigation across pages.
-- **JavaScript**: For implementing dynamic functionality.
-- **HTML5 & CSS3**: For structuring and styling the application.
-- **Static Data**: Book data is imported from a local `data.js` file for demonstration purposes.
+- 🛒 **Shopping Cart Management** – Add, update, or remove books from the cart with live updates.
+- 💵 **Dynamic Pricing** – Automatically calculates subtotals, taxes, and total costs in real time.
+- 🧭 **Clean Navigation** – Navigation bar with active link highlighting and live cart item count.
+- 📱 **Responsive Design** – Fully optimized for all screen sizes and devices.
+- 🧩 **Scalable Architecture** – Component-based structure ready for future enhancements.
 
-## Features
-- **Shopping Cart Management**: Real-time calculation of subtotals, taxes, and total costs.  
-- **Dynamic Navigation**: Easy navigation across the application.  
-- **Responsive Design**: Ensures a seamless experience across various devices.  
-- **Interactive UI**: Features clean and intuitive interfaces for a smooth user experience.  
+## 🧰 Tech Stack
+
+| Category        | Technologies                  |
+|----------------|-------------------------------|
+| **Frontend**    | React, React Router DOM       |
+| **Logic & State** | JavaScript (ES6+)           |
+| **Styling**     | HTML5, CSS3                   |
+| **Data**        | Local static file (`data.js`) |
+
+## 📸 Screenshots
+
+<!-- Optional: Add images here -->
+<!-- ![Screenshot 1](./screenshots/library-home.png) -->
+
+## 📦 Installation
+
+To get started locally:
+
+```bash
+git clone https://github.com/your-username/my-library.git
+cd my-library
+npm install
+npm start
