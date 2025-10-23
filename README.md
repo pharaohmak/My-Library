@@ -29,7 +29,7 @@
 To get started locally:
 
 ```bash
-git clone https://github.com/your-username/my-library.git
-cd my-library
+git clone https://github.com/pharaohmak/My-Library.git
+cd My-Library
 npm install
 npm start
