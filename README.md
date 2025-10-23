@@ -22,7 +22,7 @@
 ## 📸 Screenshots
 
 <!-- Optional: Add images here -->
-<!-- ![Screenshot 1](./screenshots/library-home.png) -->
+![Screenshot 1](./My-Library.png)
 
 ## 📦 Installation
 
